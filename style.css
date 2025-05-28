@@ -1,0 +1,30 @@
+nav ul li{
+    color: aliceblue;
+}
+
+
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+}
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    
+    .navbar-nav .nav-link {
+        font-size: 1.2rem;
+    }
+    
+    .navbar-toggler {
+        padding: 0.5rem;
+    }
+}
+.navbar {
+    background-color: #343a40;
+}
+.navbar-brand {
+    color: #ffffff;
+}
