@@ -9,6 +9,7 @@
     <title>The New Wave</title>
 </head>
 <body>
+   <!-- Entete de la page -->
     <header>
 
         <div class="row bg-dark text-white p-3">
@@ -19,24 +20,32 @@
             <div class="col-4">
                 <center><img src="/2.jpg" alt="Logo"></center>
             </div>
-            <div class="col-4">
-                <nav class="navbar navbar-expand-lg bg">
-                    <button class="navbar-toggler btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="col-4 text-end">
+              
+                <!--call to action buttons -->
+                
+                <div class="d-flex justify-content-end align-items-center">
+                    <a href="#" class="btn btn-primary me-2 ">Login</a>
+                    <a href="#" class="btn btn-secondary ">Register</a>
+                </div>
+                <!-- Navigation Bar -->
+                <nav class="navbar navbar-expand-lg  mt-4 pt-5">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav text-light">
-                            <li class="nav-item text-light"><a class="nav-link" href="#">Home</a></li>
-                            <li class="nav-item text-light"><a class="nav-link" href="#">About</a></li>
-                            <li class="nav-item text-light"><a class="nav-link" href="#">Shop</a></li>
-                            <li class="nav-item text-light"><a class="nav-link" href="#">Contact</a></li>
-                        </ul>    
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        </ul>
                 </nav>
-
+  
             </div>
         </div>
-    </header>   
-
+    </header>
+    <!-- Main Content -->
     <main>
         <div class="container">
             <h2 class="text-center my-4">Welcome to The New Wave Boutique</h2>
@@ -77,12 +86,12 @@
                 </div>
             </div>
         </div>
-
+<!--SECTION ABOUT US -->
         <section>  <h2 class="text-center">About Us</h2>
             <div class="container ms-auto">
                 <div class="row">
                     <div class="col-md-6 bg-dark text-white p-4">
-                     <marquee behavior="" direction="">  <h3>About The New Wave Boutique</h3> </marquee>   <center>       <p>Welcome to The New Wave Boutique, where fashion meets elegance. Our boutique offers a curated selection of clothing and accessories for the modern individual.</p>
+                     <marquee behavior="" direction="">  <h3>About The New Wave Shop</h3> </marquee>   <center>       <p>Welcome to The New Wave Boutique, where fashion meets elegance. Our boutique offers a curated selection of clothing and accessories for the modern individual.</p>
                         <p>At The New Wave, we believe in empowering our customers through style. Our team is dedicated to providing personalized service and expert advice to help you find the perfect outfit.</p>
                         <p>Explore our collection and discover the latest trends in fashion. Thank you for choosing The New Wave Boutique!</p></center> 
                    <button type="button" class="btn btn-primary justify-content-center">order Now</button>
@@ -92,6 +101,10 @@
                 </div>
             </div>
         </section>
+
+        <!--SECTION CONTACT US -->
+
+
 <section> <h2 class="text-center">Contact Us</h2>
             <div class="container">
                 <form>
@@ -113,6 +126,7 @@
 
 </section>
     </main>
+    <!-- Footer -->
     <footer class="mt-5 mb-4">
         <div class="bg-light text-dark text-center p-3">
             <p>Contact us at: <a href="mailto:info@newwaveboutique.com">info@newwaveboutique.com</a></p>
